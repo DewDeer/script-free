@@ -1157,7 +1157,7 @@ game:GetService("ReplicatedStorage").MainEvent:FireServer('Stomp')
 wait(0.7)
 play(5730840791,true, true)
 wait(2)
-play(2388641039)
+play(2388641039,true, true)
 pcall(function()
 for _, v in pairs(game:GetService('Players'):GetPlayers()) do
 if v.Name ~= game:GetService('Players').LocalPlayer.Name then
